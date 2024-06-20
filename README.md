@@ -2,6 +2,9 @@
 
 Convert the battery voltage on your e-bike to a percentage.
 
+## 🔗 Try it Out
+A demo of the project is hosted on GitHub Pages and can be found [here](https://octiwhale.github.io/Voltify/).
+
 ## 🎯 Features
 
 - **Battery Type Selection**: Choose from a variety of battery types (36v, 48v, 52v, 60v, 72v).
