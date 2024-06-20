@@ -94,7 +94,12 @@ document.addEventListener("DOMContentLoaded", function() {
         resultProgress.setAttribute("aria-valuenow", percentage);
         resultProgress.textContent = `${percentage}%`; // Update the label inside the progress bar
 
-        if (percentage > 90) {
+        if (percentage === 100) {
+            resultProgress.classList.remove("bg-warning", "bg-danger");
+            resultProgress.classList.add("bg-success");
+            summaryResultTxt.textContent = "Fully charged";
+            descriptionResultTxt.textContent = "Your battery is fully charged. You're ready to go!";
+        } else if (percentage > 90) {
             resultProgress.classList.remove("bg-warning", "bg-danger");
             resultProgress.classList.add("bg-success");
             summaryResultTxt.textContent = "Almost Full";

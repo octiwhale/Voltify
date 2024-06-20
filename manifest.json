@@ -1,0 +1,23 @@
+{
+  "background_color": "#0f2537",
+  "description": "Easily convert voltage to percentage for accurate battery readings.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Voltify",
+  "orientation": "any",
+  "scope": "https://octiwhale.github.io/Voltify/",
+  "short_name": "Voltify",
+  "start_url": "https://octiwhale.github.io/Voltify/",
+  "theme_color": "#20374c",
+  "icons": [
+    {
+      "src": "assets/img/logo.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ],
+  "lang": "en",
+  "categories": [
+    "utilities"
+  ]
+}
